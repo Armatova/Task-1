@@ -12,7 +12,7 @@ const Counter = () => {
 
   return (
     <div>
-      <h1>Счетчик:{counter}</h1>
+      <h1> Вы нажали {counter} раз(а)</h1>
       <button onClick={increment} className="btn btn-success">
         +
       </button>
